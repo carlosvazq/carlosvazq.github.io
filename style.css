@@ -148,7 +148,7 @@ footer {
 	color:#fff;
 }
 
-@media only screen and (min-device-width : 321px) and (max-device-width : 801px) {
+@media only screen and (min-width : 321px) and (max-width : 801px) {
 	.container {
     width: 95%;
     font-size: 120%;
@@ -160,7 +160,7 @@ footer {
   }
 }
 
-@media only screen and (max-device-width : 320px) {
+@media only screen and (max-width : 320px) {
 	body {
     background-color: rgb(56,145,181);
     margin:0;
