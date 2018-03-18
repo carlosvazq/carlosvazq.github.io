@@ -170,11 +170,11 @@ footer {
 	font-family: 'Great Vibes', Helvetica, sans-serif;
 	font-size: 300%;
 	text-shadow: none;
-	color: rgb(230,84,82);
+	color: #fff;
   }
 
   header a {
-	color: black;
+	color: brgb(230,84,82);
   }
 
 header a:hover {
