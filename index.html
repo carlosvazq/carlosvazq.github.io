@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" charset="utf-8">
+	<title>Weather API App</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=Great+Vibes" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:300" rel="stylesheet">
+</head>
+<body>
+
+	<header>
+		<h1>Weather App</h1>
+		<a href="https://darksky.net/" target="_blank">Powered by DarkSky</a>
+	</header>
+
+	<div class="container" aria-live="polite">
+		<form method="get" class="form">
+			<p>Enter any location name or address to get its coordinates and a weekly weather forecast.</p>
+			<div class="form-field">
+				<label for="address">City or Address</label>
+				<input type="text" id="address" placeholder="e.g. Los Angeles, CA" required>
+			</div>
+			<div class="form-field">
+				<label for="latitude">Latitude</label>
+				<input type="text" id="latitude" placeholder="e.g. 34.0522342" required>
+			</div>
+			<div class="form-field">
+				<label for="longitude">Longitude</label>
+				<input type="text" id="longitude" placeholder="e.g. -118.2436849" required>
+			</div>
+			<button class="submit">Submit</button>
+		</form>
+		
+	</div>
+
+	<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
+    <script src="script.js"></script>
+
+</body>
+</html>
